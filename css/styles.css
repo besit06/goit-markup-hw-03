@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
+    max-width: 1440px;
 }
 
 p, h1, h2, h3, h4 {
@@ -61,7 +62,7 @@ display: flex;
     align-items: center;
 }
 
-.nav-item {
+.nav-menu-link {
     padding: 24px 0;
 }
 .nav-list {
@@ -104,8 +105,12 @@ display: flex;
     color: #404bbf;
 }
 
-.title-container {
+.section-title {
+    background-color: #2E2F42;
     padding: 188px 0;
+}
+    
+    .title-container {
     text-align: center;
     align-items: center;
     }
@@ -142,12 +147,6 @@ display: flex;
 .button:hover,
 .button:focus {
     background-color: #404BBF;
-}
-
-.section-title {
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
 }
 
 .section-features {
@@ -197,6 +196,7 @@ display: flex;
 
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-item {
@@ -211,16 +211,15 @@ display: flex;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
-    padding-top: 120px;
+    margin-bottom: 72px;
+    
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-   
-    padding-bottom: 120px;
-}
+    border-radius: 0px 0px 4px 4px;
+    }
 
 .title-name {
     font-size: 20px;
@@ -229,8 +228,12 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.name-prof {
+    padding: 32px 0;
 }
 
 .title-prof {
@@ -240,19 +243,28 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
+    text-align: center;
+    
 }
 
 .sec-portfolio {
     background-color: #FFFFFF;
-    margin-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
 
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
           
+}
+
+.title-text-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .main-portfolio {
@@ -264,7 +276,7 @@ display: flex;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .title-portfolio {
@@ -274,8 +286,6 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-left: 16px;
     padding-bottom: 6px;
 }
 
@@ -285,9 +295,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    padding-left: 16px;
-    padding-bottom: 32px;
-}
+    }
 
 .foot {
     background-color: #2E2F42;
