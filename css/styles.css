@@ -201,6 +201,7 @@ display: flex;
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .title-team {
@@ -218,7 +219,7 @@ display: flex;
 .team-list {
     display: flex;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
+    
     }
 
 .title-name {
@@ -286,7 +287,7 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
-    padding-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .text-portfolio {
