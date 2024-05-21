@@ -15,14 +15,19 @@ ul {
         padding-left: 0;
 }
 
-.container {
-    max-width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+img {
+    display: block;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -33,7 +38,7 @@ ul {
     text-align: left;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-right: 76px;
+    margin-right: 76px;
 }
 
 .web {
@@ -42,7 +47,7 @@ ul {
 
 .header-nav-container {
 display: flex;
-padding: 25.5px 0 25.5px 156px;
+
 }
 
 .nav {
@@ -53,11 +58,16 @@ padding: 25.5px 0 25.5px 156px;
     text-align: left;
     display: flex;
     padding-right: 176px;
+    align-items: center;
 }
 
+.nav-item {
+    padding: 24px 0;
+}
 .nav-list {
     display: flex;
     gap: 40px;
+    
 }
 
 .nav-menu-link {
@@ -81,6 +91,7 @@ padding: 25.5px 0 25.5px 156px;
     .adress-list {
         display: flex;
         gap: 40px;
+        padding: 24px 0;
     }
 
    
@@ -94,8 +105,10 @@ padding: 25.5px 0 25.5px 156px;
 }
 
 .title-container {
-    align-items: center;
     text-align: center;
+    align-items: center;
+       
+    padding: 188px 0;
     }
 
         .title {
@@ -105,8 +118,8 @@ padding: 25.5px 0 25.5px 156px;
             letter-spacing: 0.02em;
             color: #FFFFFF;
             line-height: 1.07;
-            padding-top: 178px;
-            padding-bottom: 48px;
+            max-width: 496px;
+                           
         }
 
 .button {
@@ -118,9 +131,10 @@ padding: 25.5px 0 25.5px 156px;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
-
-    width: 169px;
+    display: block;
+    min-width: 169px;
         height: 56px;
+        border: none;
         border-radius: 4px;
         
 }
@@ -136,6 +150,10 @@ padding: 25.5px 0 25.5px 156px;
     height: 600px;
 }
 
+.section-features {
+    padding: 120px 0;
+}
+
 .features-container {
     padding: 120px 156px;
 }
@@ -143,6 +161,11 @@ padding: 25.5px 0 25.5px 156px;
 .features-list {
     display: flex;
     gap: 24px;
+    
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -166,7 +189,7 @@ padding: 25.5px 0 25.5px 156px;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .text-features {
@@ -266,6 +289,7 @@ padding: 25.5px 0 25.5px 156px;
 
 .foot {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo-foot {
@@ -277,6 +301,8 @@ padding: 25.5px 0 25.5px 156px;
     text-align: left;
     color: #4d5ae5;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-foot {
