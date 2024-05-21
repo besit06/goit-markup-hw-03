@@ -110,10 +110,7 @@ display: flex;
     padding: 188px 0;
 }
     
-    .title-container {
-    text-align: center;
-    align-items: center;
-    }
+   
 
         .title {
             font-size: 56px;
@@ -123,6 +120,8 @@ display: flex;
             color: #FFFFFF;
             line-height: 1.07;
             max-width: 496px;
+            padding-bottom: 48px;
+            
                            
         }
 
