@@ -105,10 +105,9 @@ display: flex;
 }
 
 .title-container {
+    padding: 188px 0;
     text-align: center;
     align-items: center;
-       
-    padding: 188px 0;
     }
 
         .title {
@@ -137,6 +136,7 @@ display: flex;
         border: none;
         border-radius: 4px;
         
+        
 }
 
 .button:hover,
@@ -154,15 +154,10 @@ display: flex;
     padding: 120px 0;
 }
 
-.features-container {
-    padding: 120px 156px;
-}
-
 .features-list {
     display: flex;
     gap: 24px;
-    
-}
+    }
 
 .features-item {
     width: calc((100% - 72px) / 4);
@@ -223,8 +218,7 @@ display: flex;
 .team-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
+   
     padding-bottom: 120px;
 }
 
@@ -235,6 +229,8 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .title-prof {
@@ -244,18 +240,19 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
 
 .sec-portfolio {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
+    margin-bottom: 120px;
 }
 
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-left: 156px;
-       
+          
 }
 
 .main-portfolio {
@@ -277,6 +274,9 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 6px;
 }
 
 .text-portfolio {
@@ -285,6 +285,8 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 .foot {
